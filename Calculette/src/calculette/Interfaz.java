@@ -6,8 +6,7 @@ import java.awt.GridBagLayout;
 import javax.swing.*;
 
 import java.awt.event.*;
-
-
+//HOLAAAAAAAAAA
 public class Interfaz extends JFrame implements ActionListener, KeyListener{
     private JTextField campo;
     private JButton boton1;
