@@ -9,7 +9,7 @@ import java.awt.event.*;
 
 
 public class Interfaz extends JFrame implements ActionListener, KeyListener{
-	
+	//Hola
     private JTextField campo;
     private JButton boton1;
     private JButton boton2;
