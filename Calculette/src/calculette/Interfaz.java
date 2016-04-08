@@ -1,13 +1,19 @@
 package calculette;
 
+import calculette.ExceptionDialog;
+import calculette.Eval;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 
 import javax.swing.*;
 
 import java.awt.event.*;
-//HOLAAAAAAAAAA
+
+
 public class Interfaz extends JFrame implements ActionListener, KeyListener{
+	
+	
+	
     private JTextField campo;
     private JButton boton1;
     private JButton boton2;
@@ -295,7 +301,17 @@ public class Interfaz extends JFrame implements ActionListener, KeyListener{
        
        if(e.getSource()==botonigual){
 	   String expresion = campo.getText();
-       campo.setText(Double.toString((Eval.Main(expresion))));
+	   try {
+		   
+	       campo.setText(Double.toString((Eval.Main(expresion))));
+	       
+		}catch(Throwable exc) {
+			
+			ExceptionDialog ld = new ExceptionDialog("Error:", "Expresi�n incorrecta :(", exc);		 
+			ld.setVisible(true);
+			campo.setText(null);
+		}
+
        }
     }
     
