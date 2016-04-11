@@ -8,7 +8,7 @@ package calculette;
 
 /**
  *
- * @author Jorge y Guille
+ * @author Jorge y Guille el puto amo
  *  y olé
  */
 public class Calculadora {
