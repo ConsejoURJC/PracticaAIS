@@ -8,14 +8,13 @@ package calculette;
 
 /**
  *
- * @author Jorge y Guille el puto amo si o qué pues no asad
- *  y olé
+ * @author Jorge y Guille 
  */
 public class Calculadora {
 
     public static void main(String[] args) {
         Interfaz a = new Interfaz();
-        System.out.println();
+        
     }
     
 }
