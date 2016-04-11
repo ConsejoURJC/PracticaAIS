@@ -8,13 +8,14 @@ package calculette;
 
 /**
  *
- * @author Jorge y Guille 
+ * @author Jorge y Guille
+ * 
  */
 public class Calculadora {
 
     public static void main(String[] args) {
         Interfaz a = new Interfaz();
-        
+
     }
     
 }
